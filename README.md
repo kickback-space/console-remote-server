@@ -10,7 +10,9 @@ There are two systems in this repo: 1) console remote server; 2) console remote.
 
 With your browser, open `http://localhost:3001` and you should see Console Remote Web App
 
-# Original
+Then enter STAGING-kb-space for the channel name if you want the staging logs.
+
+# Original Readme
 
 ## Private Server and Remote JavaScript Console App
 
