@@ -1,3 +1,17 @@
+# For Internal Access
+There are two systems in this repo: 1) console remote server; 2) console remote. 
+1) is deployed to GCP and we use docker to ship it. You don't have to modify it or do anything for it atm, but if you need to run it locally you can do `npm run server`
+2) is a local web application that lets you view the logs that are being transmitted to (1) from our web application. You'll select either DEVELOPMENT/STAGING/PRODUCTION and concat the env to access the channel `${ENV}-kb-space` 
+
+## Run the local web app to get access to the logs
+
+* npm install
+* npm start 
+
+With your browser, open `http://localhost:3001` and you should see Console Remote Web App
+
+# Original
+
 ## Private Server and Remote JavaScript Console App
 
 This is your own, private server of http://console.re/ service
